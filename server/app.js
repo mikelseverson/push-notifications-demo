@@ -1,20 +1,17 @@
 'use strict';
 
-var WebSocketServer = require("ws").Server
-var http = require("http")
-var app = require('express')();
+var express = require('express'),
+    http = require('http');
+var app = express();
+var server = http.createServer(app);
+var io = require('socket.io').listen(server);
 
 var index = require('./routes/index');
 
 app.use('/', index);
 
-var server = http.createServer(app)
-
-var wss = new WebSocketServer({server: server})
-
-wss.on('connection', function(socket){
+io.on('connection', function(socket){
   console.log('a user connected');
-  
   socket.on('disconnect', function(){
     console.log('user disconnected');
   });
