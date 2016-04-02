@@ -1,4 +1,4 @@
-var ENDPOINT = '/endpoint.txt'
+var ENDPOINT = '/endpoint'
 
 function showNotification(title, message, icon, data) {
   console.log('showNotification');
@@ -35,7 +35,7 @@ self.addEventListener('push', function(event) {
           var title = data.title
           var message = data.message;
           var icon = data.image.url ||
-            'images/touch/chrome-touch-icon-192x192.png';
+            'images/resume-icon.png';
           var urlToOpen = data.link;
           var notificationFilter = {
             tag: 'mobile-ads-dont-work'

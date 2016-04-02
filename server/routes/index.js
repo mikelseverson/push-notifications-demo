@@ -2,12 +2,14 @@ var express = require('express'),
 	path = require('path');
 var router = express.Router();
 
-router.get("/endpoint.txt", (req, res, next) => {
+router.get("/endpoint", (req, res, next) => {
 	res.json({
-		'title': 'title',
-		'message': 'tdsajdksakdsal',
+		'title': 'Mobile Ads don\'t work',
+		'message': 'this is from /endpoint',
 		'link': 'http://google.com',
-		'image' : {}
+		'image' : {
+			'url': 'https://cdn2.iconfinder.com/data/icons/advertisement-marketing/512/ad_banner-512.png'
+		}
 	})
 });
 

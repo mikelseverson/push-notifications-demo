@@ -1,7 +1,7 @@
 {
-  "name": "mikel-severson-portfolio",
+  "name": "service-worker-demo",
   "version": "1.0.0",
-  "description": "Mikel Severson's portfolio webstie created with Material design in mind",
+  "description": "Demoing push notifications",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
