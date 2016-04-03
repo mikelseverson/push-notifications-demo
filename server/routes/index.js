@@ -4,11 +4,11 @@ var router = express.Router();
 
 router.get("/endpoint", (req, res, next) => {
 	res.json({
-		'title': 'Come to Terrey Pine',
-		'message': 'Calling Joe',
+		'title': 'Welcome to cat facts!',
+		'message': 'A group of kittens is called a \'kindle\'!',
 		'link': 'https://www.mikelseverson.com',
 		'image' : {
-			'url': 'https://cdn2.iconfinder.com/data/icons/advertisement-marketing/512/ad_banner-512.png'
+			'url': 'https://s-media-cache-ak0.pinimg.com/736x/48/db/2f/48db2f90e1927fc995d6e14d89c7f086.jpg'
 		}
 	})
 });
