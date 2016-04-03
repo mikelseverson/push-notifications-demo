@@ -4,8 +4,8 @@ var router = express.Router();
 
 router.get("/endpoint", (req, res, next) => {
 	res.json({
-		'title': 'Why marketer get off trampoline?',
-		'message': 'Bounce rate was too high',
+		'title': 'How do you get people to notice you online?',
+		'message': 'You have to really make an impression',
 		'link': 'https://www.mikelseverson.com',
 		'image' : {
 			'url': 'https://cdn2.iconfinder.com/data/icons/advertisement-marketing/512/ad_banner-512.png'
