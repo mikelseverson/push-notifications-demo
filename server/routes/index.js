@@ -4,7 +4,7 @@ var router = express.Router();
 
 router.get("/endpoint", (req, res, next) => {
 	res.json({
-		'title': 'Welcome to cat facts!',
+		'title': 'Welcome to Cat Facts!',
 		'message': 'A group of kittens is called a \'kindle\'!',
 		'link': 'https://www.mikelseverson.com',
 		'image' : {
