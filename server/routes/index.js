@@ -4,8 +4,8 @@ var router = express.Router();
 
 router.get("/endpoint", (req, res, next) => {
 	res.json({
-		'title': 'AdWords? More like...',
-		'message': 'AdDon’tgettoowordybecauseyouonlyhave70characters',
+		'title': 'Come to Terrey Pine',
+		'message': 'Calling Joe',
 		'link': 'https://www.mikelseverson.com',
 		'image' : {
 			'url': 'https://cdn2.iconfinder.com/data/icons/advertisement-marketing/512/ad_banner-512.png'
