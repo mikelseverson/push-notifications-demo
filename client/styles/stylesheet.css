@@ -1,24 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+* { margin: 0; padding: 0; box-sizing: border-box; }
 header {
   background: lightblue;
   border: none;
   padding: 10px;
 }
-
 body {
   font: 13px Helvetica, Arial;
   background: #EEE;
 }
-
 main {
   text-align: center;
 }
-
 main button {
   margin-top: 30px;
   font-size: 25px;
@@ -26,7 +18,4 @@ main button {
   background-color: lightblue;
   padding: 25px;
 }
-
-h1 {
-  text-align: center;
-}
+h1 { text-align: center;}

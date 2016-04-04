@@ -1,0 +1,17 @@
+{
+  "name": "Service Worker Demo",
+  "short_name": "SW Demo",
+  "icons": [{
+    "src": "images/favicon.ico",
+    "sizes": "72x72"
+  },
+  {
+    "src": "images/resume-icon.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }],
+  "background_color": "#3E4EB8",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#2E3AA1"
+}
